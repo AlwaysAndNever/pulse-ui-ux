@@ -7,13 +7,13 @@
 
 ## Источники истины
 Перед любым обновлением handoff нужно сверяться с:
-- `Docs/Rules_and_Standards/Pulse_Phase_4_Design_Runtime_Truth_Map.md`
-- `Docs/Rules_and_Standards/Pulse_Phase_4_Design_Drift_Checklist.md`
-- `Docs/UI_UX_Design_Package/UI_UX_Design_Package_Index.md`
-- `Docs/UI_UX_Design_Package/Pulse_Mobile_Screen_State_Backlog.md`
-- `Docs/UI_UX_Design_Package/Pulse_Admin_Screen_State_Backlog.md`
-- `Docs/UI_UX_Design_Package/Pulse_Shaped_Component_Inventory.md`
-- `Docs/UI_UX_Design_Package/Pulse_UI_Copy_And_Tone_Matrix.md`
+- `Docs/Done/Rules_and_Standards/Docs/Done/Rules_and_Standards/Pulse_Phase_4_Design_Runtime_Truth_Map.md`
+- `Docs/Done/Rules_and_Standards/Docs/Done/Rules_and_Standards/Pulse_Phase_4_Design_Drift_Checklist.md`
+- `Docs/Done/UI_UX_Design_Package/UI_UX_Design_Package_Index.md`
+- `Docs/Done/UI_UX_Design_Package/Pulse_Mobile_Screen_State_Backlog.md`
+- `Docs/Done/UI_UX_Design_Package/Pulse_Admin_Screen_State_Backlog.md`
+- `Docs/Done/UI_UX_Design_Package/Pulse_Shaped_Component_Inventory.md`
+- `Docs/Done/UI_UX_Design_Package/Pulse_UI_Copy_And_Tone_Matrix.md`
 - `pulse-mobile-app/pulse-mobile-app/lib/app/routing/app_router.dart`
 - `pulse-admin-console/pulse-admin-console/src/app/router.tsx`
 - `pulse-core-api/docs/openapi.json`

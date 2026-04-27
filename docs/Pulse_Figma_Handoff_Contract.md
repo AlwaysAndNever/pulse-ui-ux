@@ -1,7 +1,7 @@
 # Pulse Figma Handoff Contract
 
 ## Назначение
-Этот документ переводит `Docs/UI_UX_Design_Package/Pulse_Figma_Handoff_Brief.md` в рабочий handoff-контракт для `pulse-ui-ux`.
+Этот документ переводит `Docs/Done/UI_UX_Design_Package/Pulse_Figma_Handoff_Brief.md` в рабочий handoff-контракт для `pulse-ui-ux`.
 
 ## Структура Файла `Figma`
 ### Page 1. Foundations
