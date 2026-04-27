@@ -4,8 +4,8 @@
 Это `Figma-ready` priority list для core flows `Phase 4`.
 
 Приоритеты здесь подчинены:
-- `Docs/UI_UX_Design_Package/Pulse_Mobile_Screen_State_Backlog.md`
-- `Docs/UI_UX_Design_Package/Pulse_Admin_Screen_State_Backlog.md`
+- `Docs/Done/UI_UX_Design_Package/Pulse_Mobile_Screen_State_Backlog.md`
+- `Docs/Done/UI_UX_Design_Package/Pulse_Admin_Screen_State_Backlog.md`
 
 ## P0. Сначала Рисуем И Полируем
 ### Mobile
