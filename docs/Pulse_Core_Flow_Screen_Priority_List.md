@@ -7,8 +7,21 @@
 - `Docs/Done/UI_UX_Design_Package/Pulse_Mobile_Screen_State_Backlog.md`
 - `Docs/Done/UI_UX_Design_Package/Pulse_Admin_Screen_State_Backlog.md`
 
+## Индекс Open Design (MOB)
+
+Чтобы не заводить второй макет «на тот же экран», смотри реестр статических OD:
+
+- **Таблица всех проектов + сверка P0/P1 только по mobile:** `open-design-main/.od/docs/MOB_SCREEN_INDEX.md`
+- **JSON:** `open-design-main/.od/mob-screen-index.json` — после добавления экрана прогони `node open-design-main/.od/scripts/build-mob-screen-index.mjs` из корня репозитория `cs`.
+- **Расхождения OD ↔ доки ↔ mobile ↔ API:** `open-design-main/.od/docs/Screen_Reconciliation_OD_Docs_Mobile_Backend.md`
+
+**Admin:** в `open-design-main/.od/projects` сейчас нет экранов с префиксом `ADM/…` — весь блок Admin ниже пока **без** Open Design-артефактов в этом дереве.
+
 ## P0. Сначала Рисуем И Полируем
 ### Mobile
+
+**IA:** первый таб shell — `/home` (готовность + следующий шаг); DROP как ядро — вкладка `/drops`. OD-id `MOB/Home/HomeNextDrop` соответствует маршруту **`/drops`** (Drop hub), не табу Home.
+
 1. `MOB/Auth/Signup`
 2. `MOB/Auth/Login`
 3. `MOB/Auth/ContactConfirmation`
