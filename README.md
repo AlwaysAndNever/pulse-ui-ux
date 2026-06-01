@@ -35,6 +35,8 @@
 - `docs/Pulse_Figma_Handoff_Contract.md`
 - `docs/Pulse_Core_Flow_Screen_Priority_List.md`
 - `docs/Pulse_Component_Library_Mapping.md`
+- `docs/Pulse_Drop_Core_3_Screens_Handoff.md`
+- `docs/Pulse_Open_Design_Artifact_Index.md`
 - `exports/README.md`
 - `annotations/README.md`
 
