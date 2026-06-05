@@ -15,6 +15,22 @@ Related: [`Pulse_Chat_PRD_And_Backend_Spec.md`](../../../Docs/Business_and_Conce
 | Fair timer | Countdown visible | + grace explanation + mutual extend | **Partial** — grace strip + extend pending UI (May 2026) |
 | Safety 2–3 taps | Overflow safety menu | Menu + bubble report | **Done** |
 
+## Chats surface redesign (2026-06) — design-led WOW pass
+
+Полная спека и фазовый план: [`Pulse_Chats_Surface_Redesign_Plan_2026_06`](Pulse_Chats_Surface_Redesign_Plan_2026_06.md).
+Реализацию ведёт разработчик. Кратко:
+
+| Фаза | Item | Суть |
+| --- | --- | --- |
+| 1 | **Dawn Bridge фон** | `PulseProductDawnBridge` (web-still / mobile-live) на пустые Чаты + Home |
+| 2 | **Пустой экран** | новый hero (ECG + город + countdown) вместо серого орба; скрыть фильтры при 0 чатов; story + single CTA |
+| 3 | **Список** | сегмент-контрол фильтров; live-тайл (bronze-glass + дышащее кольцо open-сессии); секция «Сейчас» с ECG-разделителем; shimmer-skeleton; calm-blue error |
+| 4 | **Переписка** | product app-bar (аватар + session timer-ring); брендовые пузыри/композер; icebreaker-карточки; grace-драма; терминальный «конверт» |
+| 5 | **Web-split + QA** | rail-контент; chrome web smoke; perf-budget gate; motion на web/reduced |
+
+Web-перф: переиспользовать `OnboardingOdWebPerf` / `pulseOdOmitBackdropBlur` / `PulseMotionProfile`;
+централизовать per-tile `Timer.periodic` в один тикер на экран (главный jank-риск на web).
+
 ## P2 items — triage
 
 | Item | Alpha now | Post-alpha / data-driven |
@@ -27,7 +43,10 @@ Related: [`Pulse_Chat_PRD_And_Backend_Spec.md`](../../../Docs/Business_and_Conce
 
 ## Guardrails — do not
 
-- Move **dawn-aurora / splash-DNA** onto Chats or Home product surfaces (editorial-monocle only).
+- ~~Move **dawn-aurora / splash-DNA** onto Chats or Home product surfaces (editorial-monocle only).~~
+  **Обновлено 2026-06:** разрешён облегчённый **Dawn Bridge** (мягкий dawn-wash + ECG-подпись)
+  для когезии продукта с онбордингом — **не** full aurora/drift/glass-spam. Web всегда «still».
+  Спека: [`Pulse_Chats_Surface_Redesign_Plan_2026_06`](Pulse_Chats_Surface_Redesign_Plan_2026_06.md).
 - Add candidate feed or «find dates» in empty chat.
 - Show public safety scores, read receipts, typing, online status.
 - Use `/chats`, `timed`, `polling` in **user-facing** copy (route hints / dev labels OK in OD only).
